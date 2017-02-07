@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WordFrequency</string>
+    <string name="main_activity_header">Word Counter</string>
+    <string name="main_activity_title">Add words to search:</string>
+    <string name="edit_text_hint">Enter word</string>
+    <string name="match_cases">Match Cases</string>
+    <string name="search_btn">Search</string>
+    <string name="clear_all">Clear All</string>
+    <string name="searching_file_dialog">Searching...</string>
+    <string name="word_frequencies_title">Word Frequencies:</string>
+    <string name="finish_btn">Finish</string>
+</resources>

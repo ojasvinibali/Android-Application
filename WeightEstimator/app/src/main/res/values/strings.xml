@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">In Class 2b</string>
+    <string name="activity_title">Weight Estimator</string>
+    <string name="target_weight">Target Weight</string>
+    <string name="bmi_ranges">BMI Ranges</string>
+
+    <string name="range1">Less than 18.5</string>
+    <string name="range2">18.5 to 24.9</string>
+    <string name="range3">25.0 to 29.9</string>
+    <string name="range4">Greater than 29.9</string>
+
+    <string name="height_lbl">Height</string>
+    <string name="feet">feet</string>
+    <string name="inches">inches</string>
+
+    <string name="calculate">Calculate Weight</string>
+    <string name="answer_string">Your weight should be between</string>
+
+    <string name="feet_hint">Enter feet</string>
+    <string name="inches_hint">Enter inches</string>
+</resources>
