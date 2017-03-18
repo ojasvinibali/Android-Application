@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_showbyrating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mahi.homework2.ShowbyratingActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:text="@string/listbyrating_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/movies_by_year"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="@string/add_movie_name_label"
+                android:layout_width="120dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/add_movie_name_label"
+                android:textAlignment="viewStart"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/showbyyear_name"
+                android:text="Some text....."
+                android:gravity="left|center_vertical"
+                android:textSize="18sp"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="133dp">
+
+            <TextView
+                android:text="@string/add_movie_description_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_movie_description_label"
+                android:textAlignment="viewStart"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/showbyyear_desc"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:weightSum="1"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="167dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:gravity="center_horizontal|center">
+
+                    <TextView
+                        android:text="@string/add_movie_genre_label"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="viewStart"
+                        android:id="@+id/add_movie_genre_label"
+                        android:layout_weight="0.24"
+                        android:textStyle="normal|bold"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:text="@string/add_movie_rating_label"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="viewStart"
+                        android:id="@+id/add_movie_rating_label"
+                        android:layout_weight="0.28"
+                        android:textStyle="normal|bold"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:text="@string/add_movie_year_label"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="viewStart"
+                        android:id="@+id/add_movie_year_label"
+                        android:layout_weight="0.27"
+                        android:textStyle="normal|bold"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:text="@string/add_movie_imdb_label"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="viewStart"
+                        android:id="@+id/add_movie_imdb_label"
+                        android:textStyle="normal|bold"
+                        android:textSize="18sp"
+                        android:layout_weight="0.17" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/showbyyear_genre"
+                        android:layout_weight="0.20"
+                        android:gravity="left|center_vertical"
+                        android:textSize="18sp"
+                        android:textAlignment="viewStart" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/showbyyear_rating"
+                        android:layout_weight="0.21"
+                        android:gravity="left|center_vertical"
+                        android:textSize="18sp"
+                        android:textAlignment="viewStart" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/showbyyear_year"
+                        android:layout_weight="0.24"
+                        android:gravity="left|center_vertical"
+                        android:textSize="18sp"
+                        android:textAlignment="viewStart" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/showbyyear_imdb"
+                android:gravity="left|center_vertical"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/next"
+                android:id="@+id/showbyyear_next"
+                android:layout_centerVertical="true"
+                android:maxHeight="180dp"
+                android:maxWidth="180dp"
+                android:minHeight="180dp"
+                android:minWidth="180dp"
+                android:layout_toLeftOf="@+id/showbyyear_last"
+                android:layout_toRightOf="@+id/showbyyear_finish"
+                android:layout_toEndOf="@+id/showbyyear_finish" />
+
+            <ImageView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/last"
+                android:id="@+id/showbyyear_last"
+                android:layout_weight="0.01"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:maxHeight="180dp"
+                android:maxWidth="180dp"
+                android:minHeight="180dp"
+                android:minWidth="180dp" />
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/previous"
+                android:id="@+id/showbyyear_previous"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/showbyyear_finish"
+                android:layout_toStartOf="@+id/showbyyear_finish"
+                android:maxHeight="180dp"
+                android:maxWidth="180dp"
+                android:minHeight="180dp"
+                android:minWidth="180dp" />
+
+            <ImageView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first"
+                android:id="@+id/showbyyear_first"
+                android:layout_marginLeft="23dp"
+                android:layout_marginStart="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:maxHeight="180dp"
+                android:maxWidth="180dp"
+                android:minHeight="180dp"
+                android:minWidth="180dp" />
+
+            <Button
+                android:text="@string/listbyyear_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/showbyyear_finish"
+                android:textAllCaps="false"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

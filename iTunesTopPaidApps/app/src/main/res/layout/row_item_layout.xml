@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60sp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/appImage"
+        tools:ignore="RtlHardcoded"
+        android:focusable="false"
+        android:clickable="false"
+        android:textIsSelectable="false"
+        android:layout_height="60sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/appDetails"
+        android:textIsSelectable="false"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_weight="0.04" />
+
+    <RadioButton
+      android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@drawable/white_star"
+        android:id="@+id/radioButton"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

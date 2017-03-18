@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TED Radio Hour Podcast </string>
+    <string name="action_refresh"></string>
+    <string name="play_now">Play Now</string>
+    <string name="date_format">Day,DD,MM,YYYY</string>
+
+</resources>
