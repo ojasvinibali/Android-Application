@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity implements GetQuizAsyncTask.
 
     @Override
     public void showProgress() {
-//   progressBar.setVisibility(View.VISIBLE);
         startTrivia =(Button)findViewById(R.id.buttonStartTrivia);
         startTrivia.setEnabled(false);
     }
