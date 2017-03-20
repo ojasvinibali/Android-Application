@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="10sp">
+
+            <TextView
+                android:text="App Name"
+                android:layout_width="317dp"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:text="App Price"
+                android:layout_width="313dp"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50sp"
+                android:layout_height="30sp"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
